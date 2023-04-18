@@ -31,7 +31,7 @@ const SecondCard = () => {
           <img src={d.image} className="flex-1 w-full" />
           <div
             className="absolute top-0 left-0 w-full h-full flex 
-                  justify-end items-center flex-col lg:px-24 lg:pb-8 px-32 pb-16"
+                  justify-end items-center flex-col lg:px-24 lg:pb-8 px-10 pb-5"
           >
             <h1 className={`font-fraunces text-${d.color.title} text-3xl mb-6`}>
               {d.title}

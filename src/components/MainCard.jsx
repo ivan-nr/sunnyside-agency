@@ -10,7 +10,7 @@ const MainCard = ({ title, content, image }) => {
       <div
         className={image === standoutImg ? `${baseStyle} order-2` : baseStyle}
       >
-        <h1 className="md:self-start self-center lg:text-6xl text-3xl font-fraunces text-[#23303e]">
+        <h1 className="md:self-start self-center lg:text-6xl text-center lg:text-left text-3xl font-fraunces text-[#23303e]">
           {title}
         </h1>
         <p className="md:self-start max-[768px]:text-center text-[#818498] font-karla lg:my-8 my-4 text-md">
